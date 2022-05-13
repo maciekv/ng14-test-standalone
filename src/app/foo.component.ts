@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-foo',
   standalone: true,
   imports: [CommonModule],
-  template: `<p>app-foo!!!!</p>`,
+  template: `<p>app-foo component standalone works</p>`,
 })
 export class FooComponent implements OnInit {
   constructor() {}
